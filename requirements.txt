@@ -1,0 +1,6 @@
+requests
+sys
+zlib
+itsdangerous.base64_decode
+ast
+flask.sessions.SecureCookieSessionInterface

@@ -10,7 +10,7 @@ from flask.sessions import SecureCookieSessionInterface
 
 wanted_cookie = '{"role": "admin" , "user" : "3"}' # Data that we want to sign
 
-url = "http://172.18.0.2:5000"
+url = "http://172.18.0.2:5000"  #CHANGE ME 
 
 s = requests.Session() # To keep track of the session's cookie
 
